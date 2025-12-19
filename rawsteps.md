@@ -1,0 +1,7 @@
+- created react native app with `npx create-expo-app@latest` command
+- removed the existing components and hooks 
+- created `types.ts` with all necessary types 
+- created `utils/styling.ts` and `constants/theme.ts` for stylings 
+- created `app/_layout.tsx` for providing the layout to the application 
+- created first UI file `app/index.tsx` which shows the app icon for 1.5 seconds and navigate to the auth pages 
+- created auth flow UI folder `(auth)` added files like `login.tsx`, `register.tsx`, `welcome.tsx`  

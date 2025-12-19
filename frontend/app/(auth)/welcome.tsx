@@ -18,12 +18,11 @@ const welcome = () => {
       <View style={styles.container}>
 
         <View style={{ alignItems: 'center' }}>
-
           <Typo color={colors.white} size={43} fontWeight={'900'} >
             Bubbly
           </Typo>
-
         </View>
+
         <Animated.Image
           source={require('../../assets/images/welcome.png')}
           style={styles.welcomeImage}

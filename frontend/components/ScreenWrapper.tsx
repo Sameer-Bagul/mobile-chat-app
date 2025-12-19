@@ -20,7 +20,7 @@ const ScreenWrapper = ({
 
   return (
     <ImageBackground
-      source={require('../assets/images/bgPattern.png')}
+      source={require('../assets/images/bgPattern.jpeg')}
       imageStyle={{ opacity: showPattern ? bgOpacity : 0 }}
       style={styles.background}
     >
